@@ -1,0 +1,104 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: sans-serif;
+  background-color: #ffffff;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#logo {
+  height: 40px;
+  width: 40;
+  padding-top: 5px;
+  padding-right: 5px;
+  float: left;
+  border-radius: 8px;
+}
+
+#content {
+  width: 40%;
+  min-width: 400px;
+  margin: 0 auto;
+}
+
+#footer {
+  width: 60%;
+  min-width: 400px;
+  margin: auto;
+  margin-top: 100px;
+  overflow: hidden;
+}
+
+#caption {
+  background-color: black;
+  opacity: 85%;
+}
+
+/* #footer:empty {
+  height: 2em;
+}
+
+#footer {
+  height: 10%;
+  transition: 1s;
+} */
+#headshot {
+  border-radius: 50%;
+  border-width: thick;
+  border-color: black;
+  border-style: solid;
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.title {
+  text-align: center;
+}
+
+#descDiv, #roleDiv {
+  width: 40%;
+}
+
+#descDiv {
+  float: left;
+}
+
+#roleDiv {
+  float: right;
+}
+
+.imageContainer {
+  clear: both;
+  text-align: center;
+}
+
+.carousel-control-next:hover {
+  transition: 0.5s;
+  transition-property: opacity, background-color, box-shadow;
+  background-color: black;
+  opacity: 25%;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  box-shadow: -5px 0px 5px black;
+}
+
+.carousel-control-prev:hover {
+  transition: 0.5s;
+  transition-property: opacity, background-color, box-shadow;
+  background-color: black;
+  opacity: 25%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  box-shadow: 5px 0px 5px black;
+}
+
+.exampleImg {}
